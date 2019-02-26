@@ -2,19 +2,21 @@
   <div id="app">
     <router-link :to="{ name: 'Hello' }">Home</router-link>
     <router-link to="/about">About</router-link>
+    <router-link to="/coins/ethereum">Ethereum</router-link>
+    <router-link to="/coins/bitcoin">Bitcoin</router-link>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
-}
+  name: "App"
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
